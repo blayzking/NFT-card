@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./NFT challenge.jpg)
+![](./screenshot.jpg)
 
 
 ### Links
