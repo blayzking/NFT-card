@@ -20,6 +20,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Overview
 
 ### The challenge
+![](./design/desktop-preview.jpg)
 
 Users should be able to:
 
