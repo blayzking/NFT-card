@@ -1,0 +1,140 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: rgb(62, 82, 163);
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: rgb(13, 25, 43);
+  background-color: hsl(217, 54%, 11%);
+  margin: 0;
+  padding: 0;
+}
+
+.main-card {
+  position: relative;
+  border-radius: 15px;
+  background-color: rgb(20, 37, 61);
+  background-color: hsl(216, 50%, 16%);
+  max-width: 20rem;
+  padding: 1.3rem;
+}
+
+.main-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  /*use display:block to make the following text appear under the image and not on the side*/
+  display: block;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.left {
+  display: inline;
+  line-height: 2.5rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.right {
+  position: absolute;
+  left: 260px;
+  top: 461px;
+  display: inline;
+  color: hsl(215, 51%, 70%);
+}
+
+.make_bold {
+  color: hsl(0, 0%, 100%);
+}
+
+.jules {
+  float: left;
+  max-width: 10%;
+  border: solid white;
+  border-radius: 100rem;
+  border-width: 2px;
+  /*margin-top: 0.5rem;*/
+  margin-top: 0.3rem;
+}
+
+.third {
+  margin-left: 50px;
+}
+
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.clock {
+  position: absolute;
+  right: 110px;
+  bottom: 103px;
+}
+
+h2:hover, .make_bold:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.first {
+  position: relative;
+  width: 320px;
+  height: 320px;
+}
+
+.hope {
+  border-radius: 10px;
+  width: 320px;
+  height: 320px;
+}
+
+.eye {
+  position: absolute;
+  display: inline;
+  /*left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);*/
+  opacity: 0;
+  background-color: rgba(0, 255, 247, 0.6);
+  width: 320px;
+  height: 320px;
+  top: 140px;
+  left: 140px;
+  transform: translate(-140px, -140px);
+  border-radius: 10px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+
+.eye-icon:hover, .eye:hover {
+  opacity: 1;
+  cursor: pointer;
+}
