@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/NFT challenge.jpg)
+![](NFT challenge.jpg)
 
 
 ### Links
